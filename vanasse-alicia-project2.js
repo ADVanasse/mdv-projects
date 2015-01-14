@@ -7,3 +7,4 @@
 
 // My Variables
 var bigTrip = ("Are you up for a big trip?");
+var wowThatsFar = 1000;
