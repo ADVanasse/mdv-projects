@@ -1,36 +1,36 @@
 
+
 // Alicia Vanasse
 // SDI 1501
 // January 15, 2015
 // Project 2
 
 
-// Global Variables
-var myCamel = "Samuel";
-var camelWife = "Pam";
-var timeLost = 7;
-var missHer = true;
 
+// Variables
+var wantToFly;
+var theAirline = "Aer Lingus";
+var buHowMuch = 850;
+var canYouAffordIt = true;
 
+// Prompt for user input -- Yes or No
 
-//My main code
+wantToFly = prompt("Would you like to take a trip with me?","Yes/No"); 
 
-console.log(myCamel + " and I are still desperate to find " + camelWife + ".");
-console.log("She's been gone for far too long now. A whole " + timeLost + "days."); 
-
-	//Prompt for Procedure
+// Procedure 
 	
-var youreSearchingRight = prompt("Have you continued to look for " + camelWife + "?!", "Of course");
+	if(wantToFly === "Yes") {
+		console.log("Cool. We're flying with " + theAirline +".");
+	} else {
+		console.log("That's okay, maybe I'll find a different travel buddy.");
+	};
+	
+// Confirm for Boolean argument
 
-if(youreSearchingRight === "Of course") { 
-	console.log("Oh, that's great! Hopefully you remember where!");
-} else {
-	console.log("But you promised you'd help! She's been gone for so long. I hope she's okay.");
-};
 
 
 
-//Procedure Function
+
 
 
 
