@@ -68,18 +68,10 @@ wordsAndWords =function (dogName, string) {
 
 // My Main Code
 
-//Prompt for Procedure
-
-aPrompt = prompt("Can you guess my doggy's name? I bet you cant!!","");
 
 // Call for Procedure
 
 youAre(aPrompt);
-
-
-// Confirm  for Boolean
-
-aConfirm = confirm("What breed do you think she is? OK for CoonHound, Cancel for Beagle");
 
 
 // Call for Boolean Function
