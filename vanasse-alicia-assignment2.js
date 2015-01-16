@@ -1,6 +1,4 @@
 
-
-
 // Alicia Vanasse
 // SDI 1501
 // Jan. 15, 2015
@@ -9,18 +7,25 @@
 
 
 
-//My Global Variables
+//My Variables
 
 var aPrompt;
 var aConfirm;
 var luDog = true;
 var dogName = "Lulu";
 var sheOld = 12;
+var putEmTogether;
+var together;
+var wereOld;
+var age;
+var sheLoves = "sunggles";
+
 
 // Procedure
-]
+aPrompt = prompt("Can you guess my doggy's name? I bet you cant!!","");
+
 youAre =function(aPrompt) {
-	if (aPrompt === dogName || aPrompt === "Lulu") {
+	if (aPrompt === dogName) {
 			console.log("How did you know?!");
 		} else {
 			console.log("That's insulting.");
@@ -29,7 +34,7 @@ youAre =function(aPrompt) {
 	
 	
 // Boolean Function with While Loop
-
+aConfirm = confirm("What breed do you think she is? OK for CoonHound, Cancel for Beagle");
 whatBreed = function(aConfirm, CoonHound) {
 	var i = 10;
 		while( i > 0) {
@@ -66,26 +71,6 @@ wordsAndWords =function (dogName, string) {
 
 
 
-// My Main Code
-
-
-// Call for Procedure
-
-youAre(aPrompt);
-
-
-// Call for Boolean Function
-
-aConfirm = whatBreed(aConfirm, CoonHound);
-
-// Call for Number Function
-
-together = wereOld(12)
-
-//Call for String Function
-
-putEmTogether = wordsAndWords(dogName + " loves her some ");
-
 
 
 // Return Values
@@ -93,7 +78,6 @@ putEmTogether = wordsAndWords(dogName + " loves her some ");
 console.log("The Boolean Function return value is " + aConfirm);
 console.log("The Number Function return value is " + together);
 console.log("The String return is " + putEmTogether);
-
 
 
 
