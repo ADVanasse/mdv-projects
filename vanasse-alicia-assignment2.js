@@ -79,7 +79,7 @@ youAre(aPrompt);
 
 // Confirm  for Boolean
 
-aConfirm = confirm("What breed do you think she is?","OK for CoonHound, Cancel for Beagle");
+aConfirm = confirm("What breed do you think she is? OK for CoonHound, Cancel for Beagle");
 
 
 // Call for Boolean Function
