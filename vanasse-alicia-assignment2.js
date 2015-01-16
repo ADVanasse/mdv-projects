@@ -11,14 +11,14 @@
 
 //My Global Variables
 
-aPrompt;
-aConfirm;
+var aPrompt;
+var aConfirm;
 var luDog = true;
 var dogName = "Lulu";
 var sheOld = 12;
 
 // Procedure
-
+]
 youAre =function(aPrompt) {
 	if (aPrompt === dogName || aPrompt === "Lulu") {
 			console.log("How did you know?!");
